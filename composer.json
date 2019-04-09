@@ -1,0 +1,27 @@
+{
+    "name": "rabol/laravel-adsense",
+    "description": "Display Adsense ads in your Laravel.",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steen Rabol",
+            "email": "steen@rabol.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rabol\\Adsense\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rabol\\Adsense\\AdsenseServiceProvider"
+            ]
+        }
+    }
+}
