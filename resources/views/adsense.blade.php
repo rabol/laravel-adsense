@@ -7,7 +7,7 @@
     @if(isset($ad_client))
     data-ad-client="{!! $ad_client !!}"
     @endif
-    @if(sisset($ad_slot))
+    @if(isset($ad_slot))
     data-ad-slot="{!! $ad_slot !!}"
     @endif
     @if(isset($ad_format))

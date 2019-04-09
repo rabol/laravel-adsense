@@ -5,7 +5,7 @@ return [
     'ads' => [
         'responsive' => [
             'ad_slot' => 12345678901,
-            'ad_format' => 'auto'
+            'ad_format' => 'auto',
             'ad_full_width_responsive' => true
         ],
         'rectangle' => [

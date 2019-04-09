@@ -1,6 +1,7 @@
 {
     "name": "rabol/laravel-adsense",
     "description": "Display Adsense ads in your Laravel.",
+    "keywords": ["framework", "laravel","Google Adsense"],
     "type": "library",
     "require": {
         "php": "^7.2"
@@ -23,5 +24,12 @@
                 "Rabol\\Adsense\\AdsenseServiceProvider"
             ]
         }
-    }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
