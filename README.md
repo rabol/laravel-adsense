@@ -12,7 +12,7 @@ composer require rabol/laravel-adsense
 
 ### Set up config file
 
-Run `php artisan config:publish rabol/laravel-adsense`.
+Run `php artisan vendor:publish`.
 
 Edit the generated config file in `/config/adsense.php` to add your ad units
 
