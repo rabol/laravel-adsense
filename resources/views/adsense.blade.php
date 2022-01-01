@@ -14,9 +14,8 @@
     data-ad-format="{!! $ad_format !!}"
     @endif
     @if(isset($ad_full_width_responsive))
-    data-full-width-responsive="{!! $ad_full_width_responsive !!}"
+    data-full-width-responsive="{!! $ad_full_width_responsive !!}">
     @endif
->
 </ins>
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
