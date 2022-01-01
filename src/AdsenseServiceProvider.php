@@ -18,11 +18,11 @@ class AdsenseServiceProvider extends ServiceProvider
 
         $this->publishes([
             $sourceViewsPath => resource_path('views/vendor/adsense'),
-        ], 'views');
+        ], 'adsense-views');
 
         $this->publishes([
             __DIR__ . '/../config/adsense.php' => config_path('adsense.php'),
-        ]);
+        ],'adsense-config');
     }
 
     /**
