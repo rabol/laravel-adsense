@@ -1,5 +1,11 @@
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Mods Center Responsive -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={!! $ad_client !!}"
+    @if(isset($ad_crossorigin))
+        crossorigin="{!! $ad_crossorigin !!}"
+    @endif
+></script>
+    @if(isset($ad_comment))
+        <!-- {{ $ad_comment }} -->
+    @endif
 <ins class="adsbygoogle"
     @if(isset($ad_style))
     style="{!! $ad_style !!}"
@@ -12,6 +18,9 @@
     @endif
     @if(isset($ad_format))
     data-ad-format="{!! $ad_format !!}"
+    @endif
+    @if(isset($ad_layout))
+    data-ad-layout="{!! $ad_layout !!}"
     @endif
     @if(isset($ad_full_width_responsive))
     data-full-width-responsive="{!! $ad_full_width_responsive !!}">
