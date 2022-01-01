@@ -4,7 +4,7 @@
     "keywords": ["framework", "laravel","Google Adsense"],
     "type": "library",
     "require": {
-        "php": "^7.2|^7.3|8.0"
+        "php": "^7.2|^7.3|^8.0"
     },
     "license": "MIT",
     "authors": [
