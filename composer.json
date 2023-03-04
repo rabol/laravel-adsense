@@ -1,10 +1,10 @@
 {
     "name": "rabol/laravel-adsense",
-    "description": "Display Adsense ads in your Laravel.",
+    "description": "Display Adsense ads in your Laravel app.",
     "keywords": ["framework", "laravel","Google Adsense"],
     "type": "library",
     "require": {
-        "php": "^7.2|^7.3|^8.0"
+        "php": "^7.2|^7.3|^8.0|^8.1|^8.2"
     },
     "license": "MIT",
     "authors": [
