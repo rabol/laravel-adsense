@@ -1,6 +1,6 @@
 # Adsense for Laravel 5
 
-Package for including Adsense Ads in Laravel 5, 6, 7, 8
+Package for including Adsense Ads in Laravel 5, 6, 7, 8, 9, 10, 11
 
 ## Installation
 
